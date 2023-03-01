@@ -1,0 +1,119 @@
+html{
+  background-color: rgb(35, 35, 35);
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+/*TASK LIST*/
+.task{
+  width:650px ;
+  min-height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+#task-text:hover{
+  padding: 10px;
+}
+.important{
+  background-color: rgb(161, 16, 16);
+}
+#task-p{
+  margin: 0;
+  margin-left: 10px;
+  max-width: 95%;
+}
+.task-btn{
+  border-radius: 20%;
+  border: none;
+  color: white;
+  width: 70px;
+  height: 100%;
+}
+#update-btn{
+  background-color: rgb(16, 47, 161);
+}
+#delete-btn{
+  background-color: rgb(161, 16, 16);
+}
+
+/*TASK ADD*/
+
+#task-form{
+  width: 630px;
+  padding: 10px;
+  background-color: rgb(74, 74, 74);
+  border-radius: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+
+}
+#task-btn{
+  background-color:rgb(16, 161, 16);
+}
+/*UPDATE TASK*/
+
+.task-wrap{
+  max-width:400px;
+  width: 35%;
+  text-align: justify;
+  background-color: rgb(74, 74, 74);
+  border-radius: 10%;
+  height: 100%;
+}
+#update-form{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*AUTH*/
+
+#form{
+  width: 400px;
+  height: 400px;
+  background-color: rgb(74, 74, 74);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cred{
+  width: 80%;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: none;
+}
+.auth-btn{
+  width: 150px;
+  background-color: rgb(16, 161, 16);
+  border-radius: 20%;
+  border: none;
+  color:white;
+}
+h1{
+  text-align: center;
+}
+#home{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+@media(max-width:650px){
+  #task-form,.task{
+    width:98vw
+  }
+}
